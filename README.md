@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# gugaoxiagao.github.io
-# hello world
-=======
 # wx-web
 
 ## Project setup
@@ -26,4 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> master
