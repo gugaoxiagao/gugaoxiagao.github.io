@@ -1,9 +1,12 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="app-contain">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/clipPath">css:clip-path</router-link>
+    </div>
+    <router-view />
   </div>
-  <router-view/>
 </template>
 
 <style>
@@ -15,8 +18,15 @@
   color: #2c3e50;
 }
 
+.app-contain{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 #nav {
   padding: 30px;
+  background-color: rgb(255, 255, 255);
 }
 
 #nav a {
